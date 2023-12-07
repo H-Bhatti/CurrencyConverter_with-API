@@ -25,6 +25,9 @@ const getCoutries = async (toCurrency) =>{
 }
 
 
+// now need to add ocde that checks and adds the currency symbol to the conversion and tells the name of cuntries
+// multiply the toal amount and calling both function need to make 
+
 
 // conversionRate("PKR","PKR");
-getCoutries("PKR")
+getCoutries("EUR")
