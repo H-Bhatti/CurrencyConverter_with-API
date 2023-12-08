@@ -41,6 +41,7 @@ const convert = async (fromCurrency, toCurrency, ammount)=>{
 }
 
 // conversionRate("PKR","PKR");
+// this function will call all the relavent functions and catch errors if any
 convert("USD", "EUR", 10)
 .then((message)=>{
     console.log(message)})
